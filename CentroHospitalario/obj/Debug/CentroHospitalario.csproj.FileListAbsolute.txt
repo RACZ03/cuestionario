@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\bin\Debug\CentroHospitalario.exe.config
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\bin\Debug\CentroHospitalario.exe
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\bin\Debug\CentroHospitalario.pdb
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.initForm.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.questions_step1_Form.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.questions_step2_Form.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.questions_step3_Form.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.questions_step4_Form.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.result_Form.resources
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.exe
+C:\Users\ADMIN\source\repos\CentroHospitalario\CentroHospitalario\obj\Debug\CentroHospitalario.pdb
