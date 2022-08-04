@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.question6 = new System.Windows.Forms.CheckedListBox();
-            this.question5 = new System.Windows.Forms.CheckedListBox();
+            this.question10 = new System.Windows.Forms.CheckedListBox();
+            this.question9 = new System.Windows.Forms.CheckedListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -37,32 +37,32 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // question6
+            // question10
             // 
-            this.question6.FormattingEnabled = true;
-            this.question6.Items.AddRange(new object[] {
+            this.question10.FormattingEnabled = true;
+            this.question10.Items.AddRange(new object[] {
             "a. Le hablaria y me aseguraria que no lo vuelva hacer.",
             "b. Comunico el caso inmediatamente a un superior",
             "c. Le explicaria como debe realizar la practica o aplicar el medicamenteo.",
             "d. Guardo silencio si considero que no es grave",
             "e. Guardo silencio porque no es mi area de paciente"});
-            this.question6.Location = new System.Drawing.Point(49, 202);
-            this.question6.Name = "question6";
-            this.question6.Size = new System.Drawing.Size(382, 79);
-            this.question6.TabIndex = 37;
+            this.question10.Location = new System.Drawing.Point(38, 204);
+            this.question10.Name = "question10";
+            this.question10.Size = new System.Drawing.Size(382, 79);
+            this.question10.TabIndex = 37;
             // 
-            // question5
+            // question9
             // 
-            this.question5.FormattingEnabled = true;
-            this.question5.Items.AddRange(new object[] {
+            this.question9.FormattingEnabled = true;
+            this.question9.Items.AddRange(new object[] {
             "a. Si, me comporte amable y logre calmarlo",
             "b. Si, le explique a se exponia su salud",
             "c. Si, pero traslade el caso a un compañero",
             "d. No, pero seria tolerante"});
-            this.question5.Location = new System.Drawing.Point(38, 63);
-            this.question5.Name = "question5";
-            this.question5.Size = new System.Drawing.Size(382, 49);
-            this.question5.TabIndex = 36;
+            this.question9.Location = new System.Drawing.Point(38, 63);
+            this.question9.Name = "question9";
+            this.question9.Size = new System.Drawing.Size(382, 64);
+            this.question9.TabIndex = 36;
             // 
             // label3
             // 
@@ -128,22 +128,23 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.question6);
-            this.Controls.Add(this.question5);
+            this.Controls.Add(this.question10);
+            this.Controls.Add(this.question9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEnd);
             this.Name = "questions_step4_Form";
             this.Text = "Paso 4";
+            this.Load += new System.EventHandler(this.questions_step4_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.CheckedListBox question6;
-        private System.Windows.Forms.CheckedListBox question5;
+        private System.Windows.Forms.CheckedListBox question10;
+        private System.Windows.Forms.CheckedListBox question9;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCancel;

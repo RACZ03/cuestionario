@@ -26,9 +26,28 @@ namespace CentroHospitalario
 
         private void btnNext_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            questions_step2_Form form = new questions_step2_Form();
-            form.Show();
+            if (txtName.Text != "" && txtApe.Text != "" && txtPhone.Text != "" && txtDir.Text != "") {
+                
+                Random random = new Random();
+                Person person = new Person();
+                person.Id = random.Next(100, 999);
+                person.Name = txtName.Text;
+                person.Ape = txtApe.Text;
+                person.Phone = txtPhone.Text;
+                person.Dir = txtDir.Text;
+
+                PersonList personList = new PersonList();
+                personList.lista.Add(person);
+
+                this.Hide();
+                questions_step2_Form form = new questions_step2_Form();
+                form.Id = person.Id;
+                form.Show();
+
+            } else
+            {
+                MessageBox.Show("Por favor llenar los datos");
+            }
         }
     }
 }

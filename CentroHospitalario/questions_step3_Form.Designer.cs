@@ -176,6 +176,7 @@
             this.Controls.Add(this.btnNext);
             this.Name = "questions_step3_Form";
             this.Text = "Paso 3";
+            this.Load += new System.EventHandler(this.questions_step3_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

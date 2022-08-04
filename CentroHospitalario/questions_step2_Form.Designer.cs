@@ -188,6 +188,7 @@
             this.Controls.Add(this.btnNext);
             this.Name = "questions_step2_Form";
             this.Text = "Paso 2";
+            this.Load += new System.EventHandler(this.questions_step2_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
